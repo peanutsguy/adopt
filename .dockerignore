@@ -1,0 +1,32 @@
+# Ignore node_modules
+node_modules
+npm-debug.log
+
+# Ignore logs
+*.log
+logs
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
+
+# Ignore build artifacts
+dist
+build
+*.out
+
+# Ignore Docker-related files
+Dockerfile
+docker-compose.yml
+docker-compose.override.yml
+
+# Ignore Git-related files
+.git
+.gitignore
+.gitattributes
+.github
+
+# Ignore environment files
+.env
+.env.*

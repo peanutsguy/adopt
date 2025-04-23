@@ -1,0 +1,43 @@
+# See https://github.com/github/gitignore/blob/main/Docker.gitignore
+
+# Logs
+logs
+*.log
+*.tlog
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# Build directories
+build/
+dist/
+tmp/
+
+# Docker-specific files
+*.env
+docker-compose.override.yml
+
+# Node modules (if applicable)
+node_modules/
+
+# Python virtual environments (if applicable)
+venv/
+__pycache__/
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
